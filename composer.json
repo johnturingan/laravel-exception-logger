@@ -16,7 +16,6 @@
     "type": "project",
     "require": {
         "php": ">=7.0",
-        "laravel/framework": ">=5.1.0",
         "jenssegers/agent": "2.6.*"
     },
     "require-dev": { },
