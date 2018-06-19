@@ -1,0 +1,28 @@
+{
+    "name": "johnturingan/laravel-exception-logger",
+    "version": "1.0.0",
+    "description": "Unified Exception Logging System across Laravel Applications",
+    "keywords": [
+        "laravel",
+        "logging"
+    ],
+    "authors": [
+        {
+            "name": "John Turingan",
+            "email": "john.turingan@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": ">=5.1.0",
+        "jenssegers/agent": "2.6.*"
+    },
+    "require-dev": { },
+    "autoload": {
+        "psr-4": {
+            "Snp\\Logger\\": "src"
+        }
+    }
+}
