@@ -1,6 +1,6 @@
 {
     "name": "johnturingan/laravel-exception-logger",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Unified Exception Logging System across Laravel Applications",
     "keywords": [
         "laravel",
@@ -16,6 +16,7 @@
     "type": "project",
     "require": {
         "php": ">=7.0",
+        "graylog2/gelf-php": "1.5.*",
         "jenssegers/agent": "2.6.*"
     },
     "require-dev": { },
