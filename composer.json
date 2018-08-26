@@ -1,6 +1,6 @@
 {
     "name": "johnturingan/laravel-exception-logger",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Unified Exception Logging System across Laravel Applications",
     "keywords": [
         "laravel",
