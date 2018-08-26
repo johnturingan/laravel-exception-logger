@@ -42,6 +42,13 @@ class Exception extends \Exception
     protected $app_fault;
 
     /**
+     * Error Details
+     *
+     * @var array
+     */
+    protected $error_details = [];
+
+    /**
      * UniLogException constructor.
      * @param string $message
      * @param int $code
@@ -77,6 +84,25 @@ class Exception extends \Exception
     public function setAppFault($app_fault)
     {
         $this->app_fault = $app_fault;
+
+        return $this;
+    }
+
+    /**
+     * @return array
+     */
+    public function getErrorDetails(): array
+    {
+        return $this->error_details;
+    }
+
+    /**
+     * @param array $error_details
+     * @return $this
+     */
+    public function setErrorDetails(array $error_details)
+    {
+        $this->error_details = $error_details;
 
         return $this;
     }
